@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/addBackraund.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.addForm{
+    background: rgba(7, 40, 195, 0.8);
+    max-width: 360px;
+    margin: 50px auto;
+    padding: 45px;
+    text-align: center;
+}
+.addForm input{
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+label{
+    color: #ffffff;
+}
+.addForm #add{
+    text-transform: uppercase;
+    background: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#add:hover{
+    background: #43A047;
+}
